@@ -12,5 +12,9 @@ exports.config = {
         defaultTimeoutInterval: 10000
     },
 
+    onPrepare: function() {
+        browser.waitForAngularEnabled(false);
+    },
+
     specs: ['./*.spec.js']
 };
