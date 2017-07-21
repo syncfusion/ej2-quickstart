@@ -1,12 +1,12 @@
 {
-    "name": "ej2-qui-seed",
+    "name": "ej2-quickstart",
     "version": "0.0.1",
-    "description": "ej2 typescript seed project",
+    "description": "Essential JS 2 typescript quick start application",
     "author": "Syncfusion Inc.",
     "license": "SEE LICENSE IN license",
     "repository": {
         "type": "git",
-        "url": "https://github.com/syncfusion/ej2-typescript-seed.git"
+        "url": "https://github.com/syncfusion/ej2-quickstart.git"
     },
     "dependencies": {
         "@syncfusion/ej2": "*"
