@@ -15,6 +15,11 @@ gulp.task('start', ['compile'], function(done) {
         ui: false
     };
     bs.init(options, done);
+
+    /**
+    * Watching typescript file changes
+    */
+    gulp.watch('src/**/*.ts', ['compile', bs.reload]).on('change', reportChanges);
 });
 
 /** 
@@ -41,7 +46,9 @@ gulp.task('compile', function(done) {
         });
 });
 
-
+function reportChanges(event) {
+    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+}
 /**
  * Testing spec files
  */
