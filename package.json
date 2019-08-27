@@ -18,7 +18,7 @@
         "gulp-typescript": "^2.13.0",
         "jasmine": "^2.6.0",
         "systemjs": "^0.20.14",
-        "typescript": "2.3.4"
+        "typescript": "2.4.2"
     },
     "scripts": {
         "start": "gulp start",
