@@ -13,12 +13,12 @@
     },
     "devDependencies": {
         "browser-sync": "^2.18.12",
-        "gulp": "^3.9.1",
-        "gulp-protractor": "^4.1.0",
-        "gulp-typescript": "^2.13.0",
+        "gulp": "*",
+        "gulp-protractor": "*",
+        "gulp-typescript": "*",
         "jasmine": "^2.6.0",
         "systemjs": "^0.20.14",
-        "typescript": "2.3.4"
+        "typescript": "*"
     },
     "scripts": {
         "start": "gulp start",
