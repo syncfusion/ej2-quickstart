@@ -16,7 +16,7 @@ gulp.task('compile', gulp.series(function(done) {
     tsProject = ts.createProject('tsconfig.json', defaultConfig);
     // Get typescript result
     tsResult = gulp.src(['./src/**/*.ts'], { base: '.' })
-        .pipe(tsProject()))
+        .pipe(tsProject())
         .pipe(gulp.dest('./'))
         .on('error', function(e) {
             done(e);
