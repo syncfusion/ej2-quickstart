@@ -9,11 +9,11 @@
         "url": "https://github.com/syncfusion/ej2-quickstart.git"
     },
     "dependencies": {
-        "@syncfusion/ej2": "*"
+        "@syncfusion/ej2-grids": "*"
     },
     "devDependencies": {
         "browser-sync": "^2.18.12",
-        "gulp": "*",
+        "gulp": "^4.0.0",
         "gulp-protractor": "*",
         "gulp-typescript": "*",
         "jasmine": "^2.6.0",
