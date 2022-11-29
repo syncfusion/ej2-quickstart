@@ -11,6 +11,7 @@ exports.config = {
     jasmineNodeOpts: {
         defaultTimeoutInterval: 10000
     },
+    directConnect: true,
 
     onPrepare: function() {
         browser.waitForAngularEnabled(false);
