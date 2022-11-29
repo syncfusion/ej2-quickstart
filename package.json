@@ -32,6 +32,6 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
-    "@syncfusion/ej2": "^20.3.58"
+    "@syncfusion/ej2": "*"
   }
 }
