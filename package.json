@@ -16,6 +16,7 @@
     "update-webdriver": "gulp e2e-webdriver-update"
   },
   "devDependencies": {
+    "ajv": "^8.11.2",
     "browser-sync": "^2.18.12",
     "gulp": "*",
     "typescript": "*",
