@@ -2,6 +2,8 @@
 
 This project is a skeleton application used to create [Essential JS 2](https://www.syncfusion.com/products/essential-js2) web application.
 
+>This application contains the latest [webpack-cli](https://webpack.js.org/api/cli/), and it requires node `v14` and above to run.
+
 ## Getting Started
 
 To get started you need to clone the `ej2-quickstart` repository and navigate to `ej2-quickstart` location.
